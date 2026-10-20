@@ -1,0 +1,33 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Description>Ihre Anwendung weiß mehr, als sie zugibt.</Description>
+    <Title>Wirtschaftspionage</Title>
+    <PackageId>Wirtschaftspionage</PackageId>
+    <Authors>AscendantWare e.K.</Authors>
+    <Company>AscendantWare e.K.</Company>
+    <Product>Wirtschaftspionage</Product>
+    <Copyright>©AscendantWare e.K.</Copyright>
+    <PackageProjectUrl>www.ascendant-ware.com</PackageProjectUrl>
+    <PackageIcon>AW_Logo_White.png</PackageIcon>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Resource Include="AW_Logo_White.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="AW_Logo_White.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Update="README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
