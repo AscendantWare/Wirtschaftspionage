@@ -1,8 +1,8 @@
 ﻿using System;
-using Wirtschaftspionage;
+using Wirtschaftsspionage;
 
 
-namespace Wirtschaftspionage.Testing
+namespace Wirtschaftsspionage.Testing
 {
     public class Class1
     {

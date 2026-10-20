@@ -1,4 +1,4 @@
-# 🕵️ Wirtschaftspionage
+# 🕵️ Wirtschaftsspionage
 
 > *Ihre Anwendung weiß mehr, als sie zugibt.*
 
@@ -7,12 +7,12 @@ Wenn Sie sich schon immer gefragt haben, was Ihre Komponenten *wirklich* treiben
 ## 📦 Installation
 
 ```bash
-dotnet add package Wirtschaftspionage
+dotnet add package Wirtschaftsspionage
 ```
 
 Oder über den NuGet Package Manager:
 ```
-Install-Package Wirtschaftspionage
+Install-Package Wirtschaftsspionage
 ```
 
 ## 🎯 Wofür braucht man das?
@@ -30,7 +30,7 @@ Perfect für:
 ### Basis-Setup
 
 ```csharp
-using Wirtschaftspionage;
+using Wirtschaftsspionage;
 
 // Agent 007 nimmt seinen Dienst auf
 var agency = new SpyAgency();
@@ -171,7 +171,7 @@ using (var writer = new StreamWriter("spy_log.txt"))
 ```csharp
 using System;
 using System.IO;
-using Wirtschaftspionage;
+using Wirtschaftsspionage;
 
 class Program
 {
@@ -243,9 +243,9 @@ ist rein satirisch gemeint.
 
 ## 🔗 Links
 
-- **GitHub:** https://github.com/AscendantWare/Wirtschaftspionage
+- **GitHub:** https://github.com/AscendantWare/Wirtschaftsspionage
 - **Website:** www.ascendant-ware.com
-- **NuGet:** https://www.nuget.org/packages/Wirtschaftspionage
+- **NuGet:** https://www.nuget.org/packages/Wirtschaftsspionage
 
 ---
 

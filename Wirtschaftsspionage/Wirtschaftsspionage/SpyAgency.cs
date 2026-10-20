@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Text;
 
-namespace Wirtschaftspionage
+namespace Wirtschaftsspionage
 {
     /// <summary>
     /// Simuliert eine humorvolle Wirtschaftsspionage-Abteilung
@@ -19,7 +19,7 @@ namespace Wirtschaftspionage
         private readonly DateTime _initializedAt;
 
         /// <summary>
-        /// Erstellt eine neue Instanz der Wirtschaftspionage-Agentur.
+        /// Erstellt eine neue Instanz der Wirtschaftsspionage-Agentur.
         /// </summary>
         /// <param name="output">
         /// Ziel für die Ausgabe. Standardmäßig wird die Konsole verwendet.
@@ -174,7 +174,7 @@ namespace Wirtschaftspionage
         {
             _output.WriteLine();
             _output.WriteLine("╔════════════════════════════════════════╗");
-            _output.WriteLine("║       WIRTSCHAFTSPIONAGE              ║");
+            _output.WriteLine("║       Wirtschaftsspionage              ║");
             _output.WriteLine("║       ABTEILUNG FÜR GEHEIMAKTEN       ║");
             _output.WriteLine("╚════════════════════════════════════════╝");
             _output.WriteLine($"Agentenkennung: {_agentId}");

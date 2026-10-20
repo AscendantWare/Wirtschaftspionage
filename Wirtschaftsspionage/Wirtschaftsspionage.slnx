@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="Wirtschaftsspionage.Testing/Wirtschaftsspionage.Testing.csproj" />
+  <Project Path="Wirtschaftsspionage/Wirtschaftsspionage.csproj" />
+</Solution>
